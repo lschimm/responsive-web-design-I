@@ -326,10 +326,10 @@ button {
   padding: 0px 25px;
   margin-left: 85px;
   background-color: #ffffff;
-  color: #6073ee;
+  /* color: #6073ee;
   overflow: hidden;
   border-radius: 10px;
-  box-shadow: 0 5px;
+  box-shadow: 0 5px; */
 }
 
 button:hover {
@@ -394,4 +394,27 @@ article {
     body {
         max-width: 500px;
     }
+    nav {
+        border: 1px solid red;
+        /* flex-direction: column-reverse; */
+    }
+    nav .anchor{
+        border: 1px solid blue;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .fa {
+        border: 1px solid blue;
+        flex-wrap: wrap;
+    }
+    .spv {
+        border: 1px solid blue;
+        flex-wrap: wrap;
+    }
+    .copyright {
+        
+    }
+
+    
 }
